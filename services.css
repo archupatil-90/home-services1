@@ -55,7 +55,7 @@ height:87vh;
     text-decoration: none;
     color: black;
     font-size: 16px;
-    transition: 1s;
+    transition: 0.5s;
     font-family: "Poppins", Sans-serif;
     font-weight: 800;
    
@@ -64,7 +64,7 @@ i{
     font-size: 1.4em;
     color: black;
     padding-right: 4px;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 
@@ -415,6 +415,258 @@ padding-right: 20px;
     text-transform: capitalize;
 }
 
+.our-services{
+    width:100%;
+    height:115vh;
+    background-color: #f7f7fc;
+    text-align: center;
+
+}
+
+
+
+
+.aboutus-section{
+    width:100%;
+    height:100vh;
+    background-color: #f7f7fc;
+    text-align: center;
+}
+.section-box{
+    width: 80%;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    /* margin-top: 10px; */
+    padding-top: 8%;
+}
+.aboutus-section-box{
+    width:320px;
+    height:400px;
+    float: left;
+    margin-right: 5%;
+}
+.image-wrapper{
+    width:320px;
+    height:320px;
+
+    background-image: url(https://devyangpatel.com/wp-content/uploads/2020/02/D1-1.jpeg);
+    background-size: cover;
+}
+.section-box:hover  .image-wrapper{
+    background-color: black;
+}
+.image-wrapper2{
+    width:320px;
+    height:320px;
+  
+    background-image: url(https://devyangpatel.com/wp-content/uploads/2020/02/S1-1.jpeg);
+    background-size: cover;
+}
+.image-title{
+    color: #2f3a5f;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    
+    text-transform: uppercase;
+    
+    margin-bottom: 10px;
+}
+.image-title-position{
+    font-size: 15px;
+    line-height: 24px;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 10px;
+    color: #7c818b;
+}
+.testimonial{
+    width:100%;
+    height:65vh;
+    /* background-color: #f7f7fc; */
+    text-align: center;
+    background-image: url("https://devyangpatel.com/wp-content/uploads/2020/01/testimonial_bg-1.png");
+    background-position: -185px 0px;
+    background-repeat: no-repeat;
+    background-size: 30% auto;
+}
+.testimonial i{
+    color: #FF6334;
+    font-size: 2.5em;
+}
+p{
+    font-size: 15px;
+    padding-top: 10px;
+    font-style: italic;
+}
+.testimonial-member{
+    width: 200px;
+    height: 65px;
+    margin: auto;
+    padding-top: 40px;
+   
+   
+}
+.member1{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-image: url(https://devyangpatel.com/wp-content/uploads/2020/01/testimonial-3-1-150x150.png);
+    background-size: cover;
+margin: auto;
+float: left;
+margin-right: 5%;
+}
+.member-name{
+    color: #FF6334;
+    letter-spacing: 1px;
+    /* margin-left: 32px; */
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.services{
+    width:100%;
+    height:55vh;
+    background-image: url(https://devyangpatel.com/wp-content/uploads/2020/01/map-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 75% auto;
+    text-align: center;
+}
+.services-heading{
+    color: #2F3A5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    line-height: 1.4em;
+    padding-top: 5%;
+    margin-bottom: 25px;
+    text-align: center;
+}
+footer{
+    width:100%;
+    height:300px;
+    background-color: #f7f7fc;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-box{
+    width:33%;
+    height:100%;
+    /* margin: auto; */
+  
+    padding-top: 10px;
+
+}
+footer p{
+    padding-left: 20%;
+    font-style: normal;
+    text-transform: capitalize;
+    
+}
+.footer-box .title{
+    font-weight: 700;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+    padding-left: 15px;
+    margin-bottom: 5px;
+   
+    height:20px;
+
+}
+.title::before{
+content: '';
+width:2px;
+height:16px;
+background-color: #ff6334;
+position: absolute;
+left:1px;
+}
+.menu{
+    color: black;
+   
+    text-transform: uppercase;
+    position: relative;
+    
+    margin-bottom: 5px;
+    top: 40px;
+    left: -40px;
+   
+}
+.menu ul li{
+    list-style-type: none;
+    font-size: 12px;
+    /* height: 35px; */
+    border-top: 1px solid gray;
+    padding-top: 8px;
+    line-height: 25px;
+    transition: 1s;
+}
+.menu ul li a{
+text-decoration: none;
+    font-size:15px;
+    color: black;
+    text-transform: capitalize;
+}
+.menu ul li:hover i , .menu ul li:hover a{
+    color: #ff6334;
+}
+.footerbox-left{
+    width:15%;
+    height:100%;
+    float: left;
+    margin-top: 60px;
+}
+ .footer-elementor{
+    width: 40px;
+    height: 40px;
+   margin-bottom: 5px;
+    border: 1px solid;
+    text-align: center;
+ 
+   
+    }
+    .footerbox-right{
+    width:85%;
+    height:100%;
+       float: left;
+    margin-top: 60px;
+}
+.footer-elementor-text{
+  
+    height: 40px;
+   margin-bottom: 5px;
+}
+footer h2{
+    line-height: 18px;
+    margin: 0;
+    
+}
+footer h4{
+  margin-top: 6px;
+    font-weight: normal;
+    line-height: 18px;
+}
+a{
+    margin-top: 6px;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    line-height: 18px;
+}
+a:hover{
+    color: #ff6334;
+}
+.footer-elementor i{
+    color: #ff6334;
+    padding-top: 10px;
+    padding-left: 5px;
+}
 
 
 
